@@ -1,0 +1,146 @@
+{
+  "extName": {
+    "message": "Aurora AdBlock — блокировщик рекламы"
+  },
+  "extDescription": {
+    "message": "Блокирует рекламу, трекеры и всплывающие окна. Пропускает рекламу на YouTube. Фильтры EasyList, uBlock и RU AdList."
+  },
+  "errLists": {
+    "message": "Не удалось загрузить списки фильтров"
+  },
+  "menuHide": {
+    "message": "Скрыть элемент"
+  },
+  "menuSite": {
+    "message": "Вкл/выкл блокировку на этом сайте"
+  },
+  "pickerTitle": {
+    "message": "Скрыть элемент:"
+  },
+  "pickerHint": {
+    "message": "наведите на ненужный блок и нажмите на него"
+  },
+  "pickerCancel": {
+    "message": "Отмена (Esc)"
+  },
+  "pickerConfirm": {
+    "message": "Скрыть это?"
+  },
+  "pickerWider": {
+    "message": "Шире"
+  },
+  "pickerHide": {
+    "message": "Скрыть"
+  },
+  "pickerDone": {
+    "message": "Элемент скрыт. Вернуть — в настройках блокировщика"
+  },
+  "never": {
+    "message": "ещё не обновлялись"
+  },
+  "justNow": {
+    "message": "только что"
+  },
+  "popupTitle": {
+    "message": "Защита от рекламы"
+  },
+  "totalBlocked": {
+    "message": "Всего заблокировано:"
+  },
+  "siteToggle": {
+    "message": "Блокировать на этом сайте"
+  },
+  "siteToggleHint": {
+    "message": "Отключите, если сайт работает неправильно"
+  },
+  "annoyances": {
+    "message": "Скрывать cookie-баннеры"
+  },
+  "annoyancesHint": {
+    "message": "Дополнительные фильтры раздражителей"
+  },
+  "youtube": {
+    "message": "Пропускать рекламу на YouTube"
+  },
+  "youtubeHint": {
+    "message": "Если реклама всё же появилась в плеере"
+  },
+  "pickButton": {
+    "message": "Скрыть элемент"
+  },
+  "settings": {
+    "message": "Настройки"
+  },
+  "update": {
+    "message": "Обновить"
+  },
+  "captionOn": {
+    "message": "Реклама и трекеры блокируются"
+  },
+  "captionOff": {
+    "message": "Выключена"
+  },
+  "blockedOnSite": {
+    "message": "заблокировано на $1"
+  },
+  "blockedOnPage": {
+    "message": "заблокировано на этой странице"
+  },
+  "updating": {
+    "message": "обновление фильтров…"
+  },
+  "updateError": {
+    "message": "ошибка обновления"
+  },
+  "filtersAge": {
+    "message": "фильтры: $1"
+  },
+  "optEnabled": {
+    "message": "Блокировщик рекламы"
+  },
+  "optEnabledHint": {
+    "message": "Реклама, трекеры, майнеры и вредоносные сайты"
+  },
+  "filtersTitle": {
+    "message": "Списки фильтров"
+  },
+  "allowTitle": {
+    "message": "Сайты-исключения"
+  },
+  "allowHint": {
+    "message": "На этих сайтах реклама не блокируется"
+  },
+  "allowPlaceholder": {
+    "message": "example.com"
+  },
+  "add": {
+    "message": "Добавить"
+  },
+  "hiddenTitle": {
+    "message": "Скрытые элементы"
+  },
+  "hiddenHint": {
+    "message": "Блоки, которые вы скрыли через «Скрыть элемент»"
+  },
+  "totalLabel": {
+    "message": "реклам и трекеров заблокировано за всё время"
+  },
+  "remove": {
+    "message": "Убрать"
+  },
+  "allowEmpty": {
+    "message": "Пока нет исключений"
+  },
+  "restoreAll": {
+    "message": "Вернуть все"
+  },
+  "restore": {
+    "message": "Вернуть"
+  },
+  "hiddenEmpty": {
+    "message": "Вы ещё ничего не скрывали"
+  },
+  "poweredBy": {
+    "message": "движок Ghostery Adblocker"
+  }
+}

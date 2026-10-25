@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Aurora AdBlock</title>
+  <link rel="stylesheet" href="../ui/theme.css">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="panel">
+    <div class="ab-head">
+      <div class="ab-logo" id="logo"></div>
+      <div class="ab-head-text">
+        <div class="ab-title" data-i18n="popupTitle"></div>
+        <div class="ab-caption" id="caption"></div>
+      </div>
+      <span class="switch" id="global-wrap"><input type="checkbox" id="global"><span></span></span>
+    </div>
+
+    <div class="ab-big">
+      <div class="ab-num" id="num">0</div>
+      <div class="ab-lbl" id="lbl"></div>
+    </div>
+    <div class="ab-total"><span data-icon="sparkles"></span><span data-i18n="totalBlocked"></span> <b id="total">0</b></div>
+
+    <label class="row-toggle" id="site-row" hidden>
+      <span data-icon="globe"></span>
+      <div class="rt-text"><b data-i18n="siteToggle"></b><small data-i18n="siteToggleHint"></small></div>
+      <span class="switch"><input type="checkbox" id="site"><span></span></span>
+    </label>
+    <label class="row-toggle">
+      <span data-icon="cookie"></span>
+      <div class="rt-text"><b data-i18n="annoyances"></b><small data-i18n="annoyancesHint"></small></div>
+      <span class="switch"><input type="checkbox" id="annoyances"><span></span></span>
+    </label>
+    <label class="row-toggle">
+      <span data-icon="play"></span>
+      <div class="rt-text"><b data-i18n="youtube"></b><small data-i18n="youtubeHint"></small></div>
+      <span class="switch"><input type="checkbox" id="youtube"><span></span></span>
+    </label>
+
+    <div class="ab-actions">
+      <button class="btn" id="pick"><span data-icon="eyeOff"></span><span data-i18n="pickButton"></span></button>
+      <button class="btn ghost" id="options"><span data-icon="settings"></span><span data-i18n="settings"></span></button>
+    </div>
+
+    <div class="ab-foot">
+      <span id="filters"></span>
+      <button class="btn sm ghost" id="update"><span data-icon="reload"></span><span data-i18n="update"></span></button>
+    </div>
+  </main>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+node_modules/
+.cache/
+extension/
+dist/
+Загрузить в магазин расширений/*.zip

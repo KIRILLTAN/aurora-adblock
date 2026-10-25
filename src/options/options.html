@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aurora AdBlock</title>
+  <link rel="stylesheet" href="../ui/theme.css">
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <img src="../icons/128.png" alt="" width="44" height="44">
+      <div>
+        <h1>Aurora AdBlock</h1>
+        <p data-i18n="extDescription"></p>
+      </div>
+    </header>
+
+    <section class="card">
+      <div class="stat" id="stat"></div>
+      <label class="row-toggle">
+        <span data-icon="shieldCheck"></span>
+        <div class="rt-text"><b data-i18n="optEnabled"></b><small data-i18n="optEnabledHint"></small></div>
+        <span class="switch"><input type="checkbox" id="enabled"><span></span></span>
+      </label>
+      <label class="row-toggle">
+        <span data-icon="cookie"></span>
+        <div class="rt-text"><b data-i18n="annoyances"></b><small data-i18n="annoyancesHint"></small></div>
+        <span class="switch"><input type="checkbox" id="annoyances"><span></span></span>
+      </label>
+      <label class="row-toggle">
+        <span data-icon="play"></span>
+        <div class="rt-text"><b data-i18n="youtube"></b><small data-i18n="youtubeHint"></small></div>
+        <span class="switch"><input type="checkbox" id="youtube"><span></span></span>
+      </label>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="filtersTitle"></h2>
+      <div class="filters-row">
+        <div>
+          <div class="muted" id="filters-info"></div>
+          <div class="err" id="filters-err" hidden></div>
+        </div>
+        <button class="btn" id="update-filters"><span data-icon="reload"></span><span data-i18n="update"></span></button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="allowTitle"></h2>
+      <p class="muted" data-i18n="allowHint"></p>
+      <form class="add" id="allow-form">
+        <input id="allow-input" type="text" autocomplete="off" spellcheck="false" data-i18n-ph="allowPlaceholder">
+        <button class="btn main" type="submit"><span data-icon="plus"></span><span data-i18n="add"></span></button>
+      </form>
+      <ul class="list" id="allow-list"></ul>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="hiddenTitle"></h2>
+      <p class="muted" data-i18n="hiddenHint"></p>
+      <div id="hidden-list"></div>
+    </section>
+
+    <footer class="foot" id="foot"></footer>
+  </div>
+  <script type="module" src="options.js"></script>
+</body>
+</html>

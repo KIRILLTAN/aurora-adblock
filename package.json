@@ -1,0 +1,17 @@
+{
+  "name": "aurora-adblock",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Блокировщик рекламы Aurora для Chrome, Edge, Яндекс Браузера и Opera",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "build:fast": "node tools/build.mjs --no-download",
+    "icons": "node tools/make-icons.mjs"
+  },
+  "devDependencies": {
+    "@ghostery/adblocker": "2.20.1",
+    "@ghostery/adblocker-webextension-cosmetics": "2.20.1",
+    "@ghostery/urlfilter2dnr": "2.1.0",
+    "esbuild": "0.28.2"
+  }
+}

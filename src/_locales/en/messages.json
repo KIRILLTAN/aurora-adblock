@@ -1,0 +1,146 @@
+{
+  "extName": {
+    "message": "Aurora AdBlock — ad blocker"
+  },
+  "extDescription": {
+    "message": "Blocks ads, trackers and pop-ups. Skips YouTube ads. EasyList, uBlock and RU AdList filters."
+  },
+  "errLists": {
+    "message": "Could not download filter lists"
+  },
+  "menuHide": {
+    "message": "Hide element"
+  },
+  "menuSite": {
+    "message": "Toggle blocking on this site"
+  },
+  "pickerTitle": {
+    "message": "Hide element:"
+  },
+  "pickerHint": {
+    "message": "hover over the unwanted block and click it"
+  },
+  "pickerCancel": {
+    "message": "Cancel (Esc)"
+  },
+  "pickerConfirm": {
+    "message": "Hide this?"
+  },
+  "pickerWider": {
+    "message": "Wider"
+  },
+  "pickerHide": {
+    "message": "Hide"
+  },
+  "pickerDone": {
+    "message": "Element hidden. Restore it in the blocker settings"
+  },
+  "never": {
+    "message": "never updated"
+  },
+  "justNow": {
+    "message": "just now"
+  },
+  "popupTitle": {
+    "message": "Ad protection"
+  },
+  "totalBlocked": {
+    "message": "Total blocked:"
+  },
+  "siteToggle": {
+    "message": "Block on this site"
+  },
+  "siteToggleHint": {
+    "message": "Turn off if the site breaks"
+  },
+  "annoyances": {
+    "message": "Hide cookie banners"
+  },
+  "annoyancesHint": {
+    "message": "Extra annoyance filters"
+  },
+  "youtube": {
+    "message": "Skip YouTube ads"
+  },
+  "youtubeHint": {
+    "message": "If an ad still shows up in the player"
+  },
+  "pickButton": {
+    "message": "Hide element"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "update": {
+    "message": "Update"
+  },
+  "captionOn": {
+    "message": "Ads and trackers are blocked"
+  },
+  "captionOff": {
+    "message": "Turned off"
+  },
+  "blockedOnSite": {
+    "message": "blocked on $1"
+  },
+  "blockedOnPage": {
+    "message": "blocked on this page"
+  },
+  "updating": {
+    "message": "updating filters…"
+  },
+  "updateError": {
+    "message": "update failed"
+  },
+  "filtersAge": {
+    "message": "filters: $1"
+  },
+  "optEnabled": {
+    "message": "Ad blocker"
+  },
+  "optEnabledHint": {
+    "message": "Ads, trackers, miners and malicious sites"
+  },
+  "filtersTitle": {
+    "message": "Filter lists"
+  },
+  "allowTitle": {
+    "message": "Allowed sites"
+  },
+  "allowHint": {
+    "message": "Ads are not blocked on these sites"
+  },
+  "allowPlaceholder": {
+    "message": "example.com"
+  },
+  "add": {
+    "message": "Add"
+  },
+  "hiddenTitle": {
+    "message": "Hidden elements"
+  },
+  "hiddenHint": {
+    "message": "Blocks you hid with “Hide element”"
+  },
+  "totalLabel": {
+    "message": "ads and trackers blocked in total"
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "allowEmpty": {
+    "message": "No exceptions yet"
+  },
+  "restoreAll": {
+    "message": "Restore all"
+  },
+  "restore": {
+    "message": "Restore"
+  },
+  "hiddenEmpty": {
+    "message": "You have not hidden anything yet"
+  },
+  "poweredBy": {
+    "message": "powered by Ghostery Adblocker"
+  }
+}
